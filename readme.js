@@ -1,17 +1,18 @@
 /**
- * callbag-map
+ * callbag-callback
  * -----------
  *
- * Callbag operator that applies a transformation on data passing through it.
+ * Callbag operator that returns data passing through it via a callback.
+ * Basicall the same idea as map, but via a callback
  * Works on either pullable or listenable sources.
  *
- * `npm install callbag-map`
+ * `npm install callbag-callback`
  *
  * Example:
  *
  *     const fromIter = require('callbag-from-iter');
  *     const iterate = require('callbag-iterate');
- *     const map = require('callbag-map');
+ *     const callback = require('callbag-callback');
  *
  *     const source = callback((x,cb) => cb(null, x * 0.1))(fromIter([10,20,30,40]));
  *
