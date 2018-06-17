@@ -1,0 +1,27 @@
+{
+  "name": "callbag-callback",
+  "version": "0.0.1",
+  "description": "Callbag operator that returns data passing through it via a callback",
+  "main": "readme.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jan-Jan/callbag-callback.git"
+  },
+  "keywords": [
+    "callbag",
+    "callback"
+  ],
+  "author": "Dr. Jan-Jan van der Vyver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jan-Jan/callbag-callback/issues"
+  },
+  "homepage": "https://github.com/Jan-Jan/callbag-callback#readme"
+}
