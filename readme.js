@@ -26,7 +26,7 @@ const callback = f => source => (start, sink) => {
   if (start !== 0) return;
   source(0, (t, d) => {
     t === 1
-      ? f(d, (err, result) => err ? sink(2, err) : sink(t, err || result))
+      ? f(d, (err, result) => err ? sink(2, err) : sink(t, result))
       : sink(t, d)
   })
 }
